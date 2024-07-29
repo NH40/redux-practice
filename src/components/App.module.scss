@@ -1,0 +1,32 @@
+.box {
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	> div {
+		background-color: #001124;
+		border-radius: 10px;
+		display: flex;
+		padding: 10px;
+		justify-content: center;
+		align-items: center;
+		box-shadow: 0 0 10px #00f, 0 0 20px #0606a3, 0 0 30px #1717c6;
+		> input {
+			margin-bottom: 0px;
+		}
+	}
+}

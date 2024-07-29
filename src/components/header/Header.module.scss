@@ -1,0 +1,24 @@
+.header {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	padding: 20px;
+
+	> div {
+		background-color: #257a8e;
+		color: #fff;
+		padding: 10px;
+		border-radius: 10px;
+		display: flex;
+		> span {
+			color: #fff;
+			font-size: 12px;
+			display: flex;
+			width: 12px;
+			height: 12px;
+			display: flex;
+			justify-content: center;
+			align-content: center;
+		}
+	}
+}
